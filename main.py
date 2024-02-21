@@ -1,11 +1,14 @@
 # This is a sample Python script.
 import get_embeddings_from_dataset
+import regression_using_embeddings
+import user_and_product_embeddings
 import visualizing_embeddings_in_2d
 import visualizing_embeddings_in_3d
 import whisper_correct_misspelling
 import whisper_processing_guide
 import whisper_prompting_guide
 import zero_shot_classification_with_embeddings
+import semantic_text_search_using_embeddings
 
 # Press ⌃R to execute it or replace it with your code.
 # Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
@@ -18,7 +21,10 @@ if __name__ == '__main__':
     # get_embeddings_from_dataset.run()
     # zero_shot_classification_with_embeddings.run()
     # visualizing_embeddings_in_3d.run()
-    visualizing_embeddings_in_2d.run()
+    # visualizing_embeddings_in_2d.run()
+    # user_and_product_embeddings.run()
+    # semantic_text_search_using_embeddings.run()
+    regression_using_embeddings.run()
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
 
 
