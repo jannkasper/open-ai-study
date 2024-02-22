@@ -1,5 +1,7 @@
 # This is a sample Python script.
+import code_search_using_embeddings
 import get_embeddings_from_dataset
+import recommendation_using_embeddings
 import regression_using_embeddings
 import user_and_product_embeddings
 import visualizing_embeddings_in_2d
@@ -24,7 +26,9 @@ if __name__ == '__main__':
     # visualizing_embeddings_in_2d.run()
     # user_and_product_embeddings.run()
     # semantic_text_search_using_embeddings.run()
-    regression_using_embeddings.run()
+    # regression_using_embeddings.run()
+    # recommendation_using_embeddings.run()
+    code_search_using_embeddings.run()
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
 
 
