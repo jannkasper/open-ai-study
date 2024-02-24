@@ -1,8 +1,11 @@
 # This is a sample Python script.
 import code_search_using_embeddings
 import get_embeddings_from_dataset
+import how_to_count_tokens_with_tiktoken
+import how_to_stream_completions
 import recommendation_using_embeddings
 import regression_using_embeddings
+import translate_latex_book
 import user_and_product_embeddings
 import visualizing_embeddings_in_2d
 import visualizing_embeddings_in_3d
@@ -28,7 +31,10 @@ if __name__ == '__main__':
     # semantic_text_search_using_embeddings.run()
     # regression_using_embeddings.run()
     # recommendation_using_embeddings.run()
-    code_search_using_embeddings.run()
+    # code_search_using_embeddings.run()
+    # translate_latex_book.run()
+    # how_to_stream_completions.run()
+    how_to_count_tokens_with_tiktoken.run()
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
 
 
